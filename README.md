@@ -19,7 +19,6 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 
 code:
-
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> charSet = new HashSet<>();
