@@ -1,13 +1,10 @@
 # Longest-Substring-Without-Repeating-Characters
 
 📌 Problem Statement
-
 Given a string s, find the length of the longest substring without repeating characters.
 
 🧠 Approach (Sliding Window)
-
 We use the Sliding Window Technique with a HashSet to keep track of unique characters.
-
 Steps:
 Use two pointers: left and right
 Expand right pointer to add characters
@@ -19,7 +16,9 @@ Time Complexity: O(n)
 Space Complexity: O(n)
 
 code:
+
 class Solution {
+
     public int lengthOfLongestSubstring(String s) {
         Set<Character> charSet = new HashSet<>();
         int maxLength = 0;
@@ -38,5 +37,4 @@ class Solution {
 }
 
 ⭐ If you found this helpful
-
 Give this repo a ⭐ and follow for more DSA solutions!
